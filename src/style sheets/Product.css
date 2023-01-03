@@ -1,0 +1,510 @@
+.webp .ProductHeader {
+  /* background-image: url('https://s3.eu-central-1.amazonaws.com/bobian/about-bgg.jpg'); */
+  /* background-image: url('./imgs/towers.jpg'); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('https://bobianwebsite.s3.me-south-1.amazonaws.com/productHeader.webp');
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}.no-webp .ProductHeader {
+  /* background-image: url('https://s3.eu-central-1.amazonaws.com/bobian/about-bgg.jpg'); */
+  /* background-image: url('./imgs/towers.jpg'); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('https://bobianwebsitepng.s3.me-south-1.amazonaws.com/productHeader.png');
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.webp .product {
+  background-image: url('https://bobianwebsite.s3.me-south-1.amazonaws.com/product.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.no-webp .product {
+  background-image: url('https://bobianwebsitepng.s3.me-south-1.amazonaws.com/product.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product .test {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 138px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: auto;
+}
+
+.product .test p {
+  display: inline;
+  border: 20px solid white;
+  padding: 10px 20px;
+
+  background-color: #eb2a2e;
+}
+
+*/ .elevators {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 110px;
+
+  color: #000000;
+}
+
+.btn-link {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: start;
+}
+
+.btn-link:focus,
+.btn-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.product-section .card {
+  border-radius: 20px !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.blt-section-white h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  /* line-height: 40px; */
+  text-align: center;
+  color: black;
+}
+
+.blt-section-white {
+  /* padding: 100px; */
+  background-color: white;
+}
+
+.webp .pro-title1 {
+  background-image: url('https://bobianwebsite.s3.me-south-1.amazonaws.com/elevators.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 138px;
+  color: #ffffff;
+  padding: 60px 40px;
+}
+.no-webp .pro-title1 {
+  background-image: url('https://bobianwebsitepng.s3.me-south-1.amazonaws.com/elevators.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 138px;
+  color: #ffffff;
+  padding: 60px 40px;
+}
+
+
+.webp .pro-title2 {
+  background-image: url('https://bobianwebsite.s3.me-south-1.amazonaws.com/escalators.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 138px;
+  color: #ffffff;
+  padding: 60px 40px;
+}
+
+.no-webp .pro-title2 {
+  background-image: url('https://bobianwebsitepng.s3.me-south-1.amazonaws.com/escalators.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 138px;
+  color: #ffffff;
+  padding: 60px 40px;
+}
+
+
+
+.webp .pro-title3 {
+  background-image: url('https://bobianwebsite.s3.me-south-1.amazonaws.com/travelators.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 138px;
+  color: #ffffff;
+  padding: 60px 40px;
+}
+
+.no-webp .pro-title3 {
+  background-image: url('https://bobianwebsitepng.s3.me-south-1.amazonaws.com/travelators.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 138px;
+  color: #ffffff;
+  padding: 60px 40px;
+}
+
+
+@media (max-width: 1000px) {
+  .blt-section-white h4 {
+    font-size: 20px;
+  }
+}
+
+.productImg {
+  max-height: 488px;
+}
+
+.fa-times {
+  color: black;
+  font-size: 19px;
+  z-index: 55 !important;
+  cursor: pointer;
+  position: absolute;
+  z-index: 20000;
+  color: black;
+  top: 15px;
+  right: 10px;
+}
+
+.prodInfo {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 1;
+  transition: 0.5s ease;
+  color: white;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  /* filter: blur(20px); */
+  margin-top: 50px;
+}
+
+.productTitle2 {
+  background-color: black;
+  width: 60px;
+  height: 3px;
+  text-align: center;
+}
+
+.list-group-item {
+  /* background-color: #3e3e3e !important; */
+  border: none !important;
+  border-bottom: 1px solid white;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-link {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: start;
+}
+
+.btn-link:focus,
+.btn-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.product-section .card {
+  border-radius: 20px !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.toggle-title {
+  color: black;
+  background-color: transparent;
+
+  border: none;
+  margin: 2rem 0px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.toggle-title:hover {
+  background-color: black;
+  border: none;
+}
+
+.toggle-title:focus {
+  background-color: black;
+  border: none;
+  color: white;
+  border: none;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.product-section .card .my-button {
+  display: block;
+
+  padding: 20px auto;
+}
+
+.productsignform input {
+  height: 60px;
+  border-top: none;
+}
+
+.productsignform {
+  text-align: left !important;
+}
+
+.productsignform input,
+.productsignform label {
+  border: none;
+}
+
+.productsignform input {
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 2px;
+  margin: 0;
+  color: #000 !important;
+  width: 80%;
+  background: rgba(0, 0, 0, 0);
+  overflow-x: hidden;
+  outline: 0 !important;
+  white-space: nowrap;
+  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #000 !important;
+}
+
+.productsignform label {
+  position: absolute;
+  top: 60px;
+  padding: 2px 0 0 2px;
+  transition: all 200ms;
+  opacity: 0.5;
+  left: 5px;
+  font-size: 15px;
+}
+
+.productsignform input:focus + label,
+.productsignform input:valid + label {
+  font-size: 16px;
+  transform: translate3d(0, -60%, 0);
+  opacity: 1;
+  outline: 0 !important;
+}
+
+.productsignform label {
+  color: #000 !important;
+}
+
+.productsubmit-button {
+  background-color: #000;
+  color: #fff;
+  padding: 2px 20px;
+}
+
+.productCard {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.cardBtn {
+  position: absolute;
+  bottom: 25px;
+  /* left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 50px;
+  padding-right: 50px; */
+  /* left: 35%; */
+  /* margin-left: -50px;
+  margin-right: -50px; */
+  margin: auto;
+  /* margin-top: -50px; */
+}
+
+.Productcaption .line {
+  width: 120px;
+  height: 10px;
+  background-color: #fff;
+  margin: auto !important;
+}
+
+.Productcaption {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  margin-top: 20px;
+  text-align: center !important;
+}
+
+.Productcaption h3 {
+  font-size: 65px !important;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.Productcaption p {
+  font-size: 30px !important;
+  padding-top: 30px !important;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1200px) and (min-width: 500px) {
+  .Productcaption h3 {
+    font-size: 35px !important;
+    margin-top: 10px !important;
+  }
+
+  .Productcaption .line {
+    width: 0 !important;
+  }
+
+  .Productcaption p {
+    font-size: 25px !important;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 350px) {
+  .Productcaption h3 {
+    font-size: 30px !important;
+  }
+
+  .Productcaption .line {
+    width: 0 !important;
+  }
+
+  .Productcaption p {
+    font-size: 20px !important;
+    margin-top: 5px !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .Productcaption h3 {
+    font-size: 20px !important;
+  }
+
+  .Productcaption .line {
+    width: 0 !important;
+  }
+
+  .Productcaption p {
+    font-size: 16px !important;
+    margin-top: 5px !important;
+  }
+}
+
+.modal-backdrop {
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: transparent !important;
+}
+
+/* Modal Content/Box */
+.modal-dialog {
+  position: absolute;
+  width: auto;
+  /* margin: auto !important; */
+  pointer-events: none;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-radius: 2px;
+  z-index: 1;
+  font-size: 17px;
+}
+
+#snackbar {
+  background-color: #333;
+  padding: 15px;
+  color: white;
+}
+.fram {
+  border: none !important;
+}
+
+.elevatorCard {
+  margin-bottom: 4rem !important;
+}
+
+.elevatorCard2 {
+  margin-bottom: 5rem !important;
+}
+
+.vacum {
+  height: 470px;
+}
+@media (max-width: 500px) {
+  .vacum {
+    height: 300px;
+  }
+}

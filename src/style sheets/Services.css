@@ -1,0 +1,248 @@
+.Services-page {
+  overflow: hidden;
+}
+
+.webp .servHeader {
+  /* background-image: url('https://s3.eu-central-1.amazonaws.com/bobian/about-bgg.jpg'); */
+  /* background-image: url('./imgs/towers.jpg'); */
+  background-image: url('https://bobianwebsite.s3.me-south-1.amazonaws.com/servheader.webp');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.no-webp .servHeader {
+  /* background-image: url('https://s3.eu-central-1.amazonaws.com/bobian/about-bgg.jpg'); */
+  /* background-image: url('./imgs/towers.jpg'); */
+  background-image: url('https://bobianwebsitepng.s3.me-south-1.amazonaws.com/servheader.png');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.wide-range h2 {
+  font-weight: 900;
+  font-size: 75px;
+  border-left: 30px solid #eb2a2e;
+  border-right: 30px solid #eb2a2e;
+
+  /* text-align: center; */
+  color: #000000;
+  text-align: center;
+}
+
+.wide-range h6 {
+  font-weight: bold;
+  /* padding-left: 90px; */
+  padding-top: 30px;
+  text-align: center;
+
+  font-size: 30px;
+  /* line-height: 47px; */
+}
+
+.wide-range p {
+  font-size: 20px;
+  /* text-align: center; */
+}
+
+.cont {
+  width: 89%;
+  margin: auto;
+}
+
+.Installation h4,
+.Maintenance h4,
+.Spare h4 {
+  font-weight: 900;
+  font-size: 50px;
+  /* text-align: center; */
+}
+
+.Installation h6,
+.Maintenance h6,
+.Spare h6 {
+  /* font-weight: 200 !important; */
+  /* text-align: center; */
+
+  font-size: 30px;
+  vertical-align: text-bottom;
+}
+
+@media (max-width: 500px) {
+  /* .Installation h6 {
+    font-size: 20px;
+    font-weight:bold
+  } */
+  /* .Installation h4 {
+    font-size: 20px;
+  } */
+
+  .Installation h6,
+.Maintenance h6,
+.Spare h6 {
+  /* font-weight: 200 !important; */
+  text-align: center;
+
+  font-size: 20px;
+  vertical-align: text-bottom;
+}
+}
+
+.Services-page .servbtn {
+  background: #eb2a2e;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 16px;
+  text-align: center;
+  margin: auto;
+  padding: 20px 30px;
+  color: #ffffff;
+}
+
+.Interested {
+  text-align: center;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+@media (max-width: 600px) {
+  .Interested {
+    font-size: 30px;
+  }
+
+  /* .Installation h6 {
+    font-size: 20px;
+    font-weight:bold
+  } */
+
+  .Services-page .servbtn {
+    font-size: 25px;
+    line-height: 0px;
+  }
+
+  .Installation h6,
+.Maintenance h6,
+.Spare h6 {
+  /* font-weight: 200 !important; */
+  text-align: center;
+
+  font-size: 20px;
+  vertical-align: text-bottom;
+}
+}
+
+@media (max-width: 400px) {
+  .wide-range h2 {
+    font-size: 30px;
+  }
+  /* .Installation h6 {
+    font-size: 20px;
+    font-weight:bold
+  } */
+  .Installation h6,
+.Maintenance h6,
+.Spare h6 {
+  /* font-weight: 200 !important; */
+  text-align: center;
+
+  font-size: 20px;
+  vertical-align: text-bottom;
+}
+  .Services-page .servbtn {
+    font-size: 25px;
+    line-height: 0px;
+  }
+}
+
+.servcaption .line {
+  width: 120px;
+  height: 10px;
+  background-color: #000;
+  margin: auto !important;
+}
+
+.servcaption {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  margin-top: 20px;
+  text-align: center !important;
+}
+
+.servcaption h3 {
+  font-size: 65px !important;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.servcaption p {
+  font-size: 30px !important;
+  padding-top: 30px !important;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1200px) and (min-width: 500px) {
+  .servcaption h3 {
+    font-size: 35px !important;
+    margin-top: 10px !important;
+  }
+
+  .servcaption .line {
+    width: 0 !important;
+  }
+
+  .servcaption p {
+    font-size: 25px !important;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 350px) {
+  .servcaption h3 {
+    font-size: 30px !important;
+  }
+
+  .servcaption .line {
+    width: 0 !important;
+  }
+
+  .servcaption p {
+    font-size: 20px !important;
+    margin-top: 5px !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .servcaption h3 {
+    font-size: 20px !important;
+  }
+
+  .servcaption .line {
+    width: 0 !important;
+  }
+
+  .servcaption p {
+    font-size: 16px !important;
+    margin-top: 5px !important;
+  }
+
+  .Installation h6,
+.Maintenance h6,
+.Spare h6 {
+  /* font-weight: 200 !important; */
+  text-align: center;
+
+  font-size: 20px;
+  vertical-align: text-bottom;
+}
+}

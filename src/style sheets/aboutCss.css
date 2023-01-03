@@ -1,0 +1,494 @@
+.aboutPage {
+  overflow: hidden;
+}
+
+.webp .aboutHeader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('https://bobianwebsite.s3.me-south-1.amazonaws.com/about-header.webp');
+  height: 100vh;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.no-webp .aboutHeader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('https://bobianwebsitepng.s3.me-south-1.amazonaws.com/about-header.png');
+  height: 100vh;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutcaption h3 {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-size: 70px;
+
+  margin-top: 80px;
+  font-weight: bold;
+}
+
+.aboutcaption2 {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+
+  font-weight: bold;
+}
+
+.aboutcaption p {
+  text-align: center;
+  color: white;
+
+  font-size: 29px;
+}
+
+.sub-title {
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.txt3 {
+  text-align: justify;
+  color: #000000;
+  font-size: 20px;
+}
+
+.aboutLogo {
+  width: 280px;
+  height: 166px;
+}
+
+.aboutLogo2 {
+  width: 250px;
+  height: 50px;
+}
+
+.aboutQuote {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  padding: 45px;
+  color: #a7a7a7;
+}
+
+.webp .nums {
+  padding: 100px 0px;
+  background: transparent;
+  background: url('https://bobianwebsite.s3.me-south-1.amazonaws.com/numBg.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.no-webp .nums {
+  padding: 100px 0px;
+  background: transparent;
+  background: url('https://bobianwebsitepng.s3.me-south-1.amazonaws.com/numBg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.numb h3 {
+  color: white;
+  font-size: 70px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.numb h4 {
+  color: white;
+  font-size: px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.Message {
+  position: absolute;
+  bottom: -80px;
+  border: white 29px solid;
+  background-color: #eb2a2e;
+  color: white;
+  font-size: 50px;
+  right: 10% !important;
+  left: 10% !important;
+  padding: 21px;
+  text-align: center;
+}
+.Message h6 {
+  font-size: 55px;
+}
+@media (max-width: 450px) {
+  .Message h6 {
+    font-size: 20px;
+  }
+}
+.messageContainer p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.abouMission p {
+  color: #000000;
+  font-weight: 500;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.abouMission h5 {
+  color: white;
+  padding: 30px;
+  font-weight: 400;
+  background-color: #eb2a2e;
+  font-size: 40px;
+  text-align: left;
+}
+
+.certficateimg {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+  font-weight: 900 !important;
+}
+
+.aboutarrow {
+  position: absolute;
+  bottom: -30px;
+  margin: auto;
+  font-size: 40px;
+  cursor: pointer;
+  right: 50%;
+  left: 48%;
+}
+
+.slick-slide {
+  filter: blur(5px);
+}
+
+.slick-center {
+  filter: none;
+}
+
+.red {
+  background-color: #eb2a2e;
+}
+
+.aboutPage .red h2 {
+  font-size: 80px;
+  text-align: center;
+  background-color: #fff;
+  color: #000000;
+  display: inline !important;
+}
+
+.redtxt {
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+}
+
+@media (max-width: 450px) {
+  .aboutPage .red h2 {
+    font-size: 30px;
+    text-align: center;
+    background-color: #fff;
+    color: #000000;
+    display: inline !important;
+  }
+
+  .redtxt {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .aboutPage .red h2 {
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .redtxt {
+    font-size: 25px;
+  }
+  .aboutQuote {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 450px) {
+  .title {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .sub-title {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+
+  .aboutLogo {
+    width: 210px;
+    height: 120px;
+  }
+
+  .aboutLogo2 {
+    width: 170px;
+  }
+
+  .aboutQuote .mymark {
+    margin-top: -50px !important;
+    font-size: 90px !important;
+    text-align: right !important;
+    margin-right: 0px !important;
+  }
+}
+
+/* @media (max-width: 449px) and (min-width: 310px) {
+  .Message {
+   
+    padding: 0px;
+    font-size: 20px !important;
+  }
+} */
+
+.aboutPage .line {
+  width: 120px;
+  height: 10px;
+  background-color: #fff;
+  margin: auto !important;
+}
+
+.aboutcaption {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  margin-top: 20px;
+  text-align: center !important;
+}
+
+.aboutcaption h3 {
+  font-size: 65px !important;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.aboutcaption p {
+  font-size: 30px !important;
+  padding-top: 30px !important;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1200px) and (min-width: 500px) {
+  .aboutcaption h3 {
+    font-size: 35px !important;
+    margin-top: 10px !important;
+  }
+
+  .aboutcaption .line {
+    width: 0 !important;
+  }
+
+  .aboutcaption p {
+    font-size: 25px !important;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 350px) {
+  .aboutcaption h3 {
+    font-size: 30px !important;
+  }
+
+  .aboutcaption .line {
+    width: 0 !important;
+  }
+
+  .aboutcaption p {
+    font-size: 20px !important;
+    margin-top: 5px !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .aboutcaption h3 {
+    font-size: 20px !important;
+  }
+
+  .aboutcaption .line {
+    width: 0 !important;
+  }
+
+  .aboutcaption p {
+    font-size: 16px !important;
+    margin-top: 5px !important;
+  }
+}
+
+.number-dev {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 850px) {
+  .abouMission1 {
+    margin-right: 0px;
+  }
+}
+
+.aboutQuote .mymark {
+  margin-top: -50px !important;
+  font-size: 90px !important;
+  text-align: right !important;
+  margin-right: 80px !important;
+}
+
+@media (max-width: 1195px) {
+  .aboutQuote .mymark {
+    margin-top: -50px !important;
+    font-size: 90px !important;
+    text-align: right !important;
+    margin-right: 0px !important;
+  }
+}
+
+.webp .shaarawySection {
+  background-image: url('https://bobianwebsite.s3.me-south-1.amazonaws.com/Desktop.webp');
+  background-size: 100% 100%;
+  height: 40vh;
+  background-repeat: no-repeat;
+}
+.no-webp .shaarawySection {
+  background-image: url('https://bobianwebsitepng.s3.me-south-1.amazonaws.com/ezgif.com-webp-to-jpg+(3).jpg');
+  background-size: 100% 100%;
+  height: 40vh;
+  background-repeat: no-repeat;
+}
+@media (max-width: 500px) {
+  .webp .shaarawySection {
+    background-image: url('https://bobianwebsite.s3.me-south-1.amazonaws.com/dwdwd.webp');
+    background-size: 100% 100%;
+    height: 20vh;
+  }
+  .no-webp .shaarawySection {
+    background-image: url('https://bobianwebsitepng.s3.me-south-1.amazonaws.com/ezgif.com-webp-to-jpg+(4).jpg');
+    background-size: 100% 100%;
+    height: 20vh;
+  }
+}
+@media (max-width: 800px) and (min-width: 501px) {
+  .webp .shaarawySection {
+    background-image: url('https://bobianwebsite.s3.me-south-1.amazonaws.com/tablet.webp');
+    background-size: 100% 100%;
+    height: 20vh;
+  }
+  .no-webp .shaarawySection {
+    background-image: url('https://bobianwebsitepng.s3.me-south-1.amazonaws.com/ezgif.com-webp-to-jpg+(5).jpg');
+    background-size: 100% 100%;
+    height: 20vh;
+  }
+}
+
+.sharawytext {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+}
+.sharawybtn {
+  background: #eb2a2e;
+  /* Drop Shadow */
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none !important;
+}
+.sharawybtn a {
+  color: white !important;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.sharawybtn a:hover {
+  color: white !important;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+.sharawybtn:focus {
+  outline: none;
+}
+
+@media (max-width: 1192px) {
+  .Message {
+    position: absolute;
+    bottom: -30px;
+    border: white 10px solid;
+    background-color: #eb2a2e;
+    color: white;
+    font-size: 20px;
+    /* right: 5% !important;
+    left: 5% !important; */
+    padding: 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 607px) {
+  .Message {
+    position: absolute;
+    bottom: -30px;
+    border: white 10px solid;
+    background-color: #eb2a2e;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  .Message h6 {
+    font-size: 30px;
+  }
+}
+
+.abouMission {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+@media (max-width: 1044px) and (min-width: 768px) {
+  .abouMission {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+.certificate .slick-list {
+  padding-bottom: 40px !important;
+}

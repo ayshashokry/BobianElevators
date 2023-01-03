@@ -1,0 +1,219 @@
+.portfolioPage {
+  overflow: hidden;
+}
+
+.webp .portfolioHeader {
+  background-image: url('https://bobianwebsite.s3.me-south-1.amazonaws.com/portfolio.webp');
+  background-position: center;
+  background-size: 100% 100%;
+  height: 100vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.no-webp .portfolioHeader {
+  background-image: url('https://bobianwebsitepng.s3.me-south-1.amazonaws.com/portfolio.png');
+  background-position: center;
+  background-size: 100% 100%;
+  height: 100vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.localHeader {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.localHeader h2 {
+  color: #eb2a2e;
+  font-weight: 700;
+}
+
+.localHeader p {
+  font-size: 25px;
+}
+
+.localHeader hr {
+  width: 100px !important;
+  height: 7px !important;
+  background-color: #eb2a2e !important;
+}
+
+.slick-slide {
+  filter: blur(5px);
+}
+
+.slick-center {
+  filter: none;
+}
+
+.kuwitimg,
+.interimg {
+  width: 930px;
+  height: 450px;
+  margin: auto;
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
+  border-radius: 40px;
+}
+@media (max-width: 490px) {
+  .kuwitimg,
+  .interimg {
+    width: 930px;
+    height: 250px;
+    margin: auto;
+  }
+}
+
+.kwuit-image {
+  position: relative;
+}
+
+.imgcaption {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.interHeader {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.interHeader h2 {
+  color: #eb2a2e;
+  font-weight: 700;
+}
+
+.interHeader p {
+  font-size: 25px;
+}
+
+.interHeader hr {
+  width: 100px !important;
+  height: 7px !important;
+  background-color: #eb2a2e !important;
+}
+
+.inter-image {
+  position: relative;
+}
+
+.imgcaption {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.letstalk {
+  margin: 50px 0;
+}
+
+.letstalk h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000;
+}
+
+.portfolioPage .servbtn {
+  background: #eb2a2e;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 16px;
+  text-align: center;
+  margin: auto;
+  padding: 20px 30px;
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .portfolioPage .servbtn {
+    font-size: 25px;
+    line-height: 0px;
+  }
+}
+
+.portcaption .line {
+  width: 120px;
+  height: 10px;
+  background-color: #fff;
+  margin: auto !important;
+}
+
+.portcaption {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  margin-top: 20px;
+  text-align: center !important;
+}
+
+.portcaption h3 {
+  font-size: 65px !important;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.portcaption p {
+  font-size: 30px !important;
+  padding-top: 30px !important;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1200px) and (min-width: 500px) {
+  .portcaption h3 {
+    font-size: 35px !important;
+    margin-top: 10px !important;
+  }
+
+  .portcaption .line {
+    width: 0 !important;
+  }
+
+  .portcaption p {
+    font-size: 25px !important;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 350px) {
+  .portcaption h3 {
+    font-size: 30px !important;
+  }
+
+  .portcaption .line {
+    width: 0 !important;
+  }
+
+  .portcaption p {
+    font-size: 20px !important;
+    margin-top: 5px !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .portcaption h3 {
+    font-size: 20px !important;
+  }
+
+  .portcaption .line {
+    width: 0 !important;
+  }
+
+  .portcaption p {
+    font-size: 16px !important;
+    margin-top: 5px !important;
+  }
+}
